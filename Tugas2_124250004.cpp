@@ -149,7 +149,7 @@ void cetakInOrder(NodeTree *node) {
 void tampilData() {
     cout << "\n= DATA KARYAWAN =\n";
     if (akar == NULL) cout << "Belum ada data karyawan.\n";
-    else cetakInOrder;
+    else cetakInOrder(akar);
 }
 // ngajuin cuti
 void pengajuanCuti() {
